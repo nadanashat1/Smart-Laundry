@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Editing the container class so that it works like bootstrap container */
+
+@layer base {
+  .container {
+    @apply px-4 mx-auto max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1140px] xl:max-w-[1320px];
+  }
+}
+
+/* Project colors and font from figma desgin  */
+
+@theme {
+  /* Main background color */
+  --color-background: #f8f9fc;
+
+  /* Cards color */
+  --color-card: #ffffff;
+
+  /* Primary color and a darker one for hover */
+  --color-primary: #1a37ff;
+  --color-primary-hover: #1900f3;
+
+  /* Accent color and a darker one for hover */
+  --color-accent: #fe574f;
+  --color-accent-hover: #f51d23;
+
+  /* Headings text color */
+  --color-heading: #111827;
+
+  /* normal text color like paragraphs */
+  --color-body: #374151;
+
+  /* Darker text color */
+  --color-muted: #6b7280;
+
+  /* Font family */
+  --font-nunito: "Nunito", sans-serif;
+  --font-tajawal: "Tajawal", sans-serif;
+
+  /* Font sizes */
+  --text-xs: 10px; /* 0.625rem */
+  --text-sm: 13px; /* 0.813rem */
+  --text-md: 16px; /* 1.000rem */
+  --text-lg: 20px; /* 1.250rem */
+  --text-xl: 25px; /* 1.563rem */
+  --text-2xl: 31px; /* 1.938rem */
+  --text-3xl: 39px; /* 2.438rem */
+  --text-4xl: 49px; /* 3.063rem */
+  --text-5xl: 61px; /* 3.813rem */
+  --text-6xl: 76px; /* 4.750rem */
+
+  /* Shades of gray colors from Figma */
+  --color-gray-50: #ffffff;
+  --color-gray-100: #f8f8f8;
+  --color-gray-200: #e9e9e9;
+  --color-gray-300: #d6d6d6;
+  --color-gray-400: #a2a2a2;
+  --color-gray-500: #737373;
+  --color-gray-600: #545454;
+  --color-gray-700: #404040;
+  --color-gray-800: #272727;
+  --color-gray-900: #181818;
+  --color-gray-950: #090909;
+  --color-gray-999: #010101;
+
+  /* Shades of primary colors ( blues ) */
+  --color-primary-50: #f8fbff;
+  --color-primary-100: #f4f7ff;
+  --color-primary-200: #e6eeff;
+  --color-primary-300: #d0dfff;
+  --color-primary-400: #adc7ff;
+  --color-primary-500: #77a1ff;
+  --color-primary-600: #4d7fff;
+  --color-primary-700: #2a5bff;
+  --color-primary-800: #1a37ff;
+  --color-primary-900: #1900f3;
+  --color-primary-950: #01002f;
+
+  /* shades of secondary/ accent colors (reds) */
+  --color-accent-50: #fffaf9;
+  --color-accent-100: #fff5f3;
+  --color-accent-200: #ffe9e6;
+  --color-accent-300: #ffd4cf;
+  --color-accent-400: #feb5ad;
+  --color-accent-500: #fe877d;
+  --color-accent-600: #fe574f;
+  --color-accent-700: #f51d23;
+  --color-accent-800: #bc060e;
+  --color-accent-900: #8a0407;
+  --color-accent-950: #520101;
+  --color-accent-999: #1a0000;
+}
