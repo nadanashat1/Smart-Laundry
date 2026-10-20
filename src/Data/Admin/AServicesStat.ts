@@ -1,0 +1,46 @@
+import type { StatItem } from "../../types/Admin/AStatItem";
+
+export const servicesStats: StatItem[] = [
+  {
+    id: 1,
+    title: "الخدمات المفعلة",
+    value: "8",
+    subValue: "من أصل 10 خدمات",
+    badgeText: "80% تغطية الخدمة الفعلية",
+    iconSrc: "hanger",
+    iconColor: "#1A37FF",
+    iconBgColor: "#D0DFFF",
+  },
+  {
+    id: 2,
+    title: "متوسط مدة المعالجة (Turnaround)",
+    value: "18.5",
+    subValue: "ساعة",
+    badgeText: "أسرع بـ 2.3 ساعة من الأسبوع الماضي",
+    iconSrc: "timer",
+    iconColor: "#1A37FF",
+    iconBgColor: "#D0DFFF",
+  },
+  {
+    id: 3,
+    title: "الخدمة الأكثر طلبًا",
+    value: "تنظيف جاف وبخار",
+    subValue: "",
+    badgeText: "42% من الطلبات",
+    iconSrc: "star",
+    iconColor: "#1A37FF",
+    iconBgColor: "#D0DFFF",
+  },
+  {
+    id: 4,
+    title: "حالة الطاقة الاستيعابية اليومية",
+    value: "92%",
+    subValue: "جاهزية تشغيلية",
+    badgeText: "1,840 / 2,000 قطعة يوميًا",
+    iconSrc: "gauge",
+    iconColor: "#159767",
+    iconBgColor: "#E7F6ED",
+    valueColor: "#159767",
+    badgeColor: "#159767",
+  },
+];
